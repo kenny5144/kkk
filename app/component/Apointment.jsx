@@ -2,12 +2,12 @@ import React from 'react'
 
 const Apointment = () => {
   return (
-    <div className="bg-white p-9 md:flex py-10 gap-10 items-start">
+    <div id='contact' className="bg-white p-9 md:flex py-10 gap-10 items-start">
       {/* Left Content */}
       <div className="md:w-1/2">
-        <div className="inline-block bg-gray-100 text-gray-600 px-4 py-1 rounded-full mb-4">Appointment</div>
-        <h2 className="text-3xl font-bold text-gray-800 mb-4">Make An Appointment To Visit Our Doctor</h2>
-        <p className="text-gray-500 mb-6">Tempor erat elitr rebumat clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet.</p>
+        {/* <div className="inline-block bg-gray-100 text-gray-600 px-4 py-1 rounded-full mb-4">Appointment</div> */}
+        <h2 className="text-3xl font-bold text-gray-800 mb-4">Contact Us Today </h2>
+        <p className="text-gray-500 mb-6">We would like the opportunity to collaborate with you and discuss how Harmony Support can best serve the individuals in your care. Please feel free to contact us</p>
         
         <div className="bg-blue-50 p-5 rounded-lg mb-4 flex items-center gap-4">
           <div className="bg-white text-blue-600 p-3 rounded-full shadow">
@@ -15,7 +15,7 @@ const Apointment = () => {
           </div>
           <div>
             <p className="text-gray-500">Call Us Now</p>
-            <p className="text-blue-900 font-bold">+000 000 000</p>
+            <p className="text-blue-900 font-bold">+973 874 6158</p>
           </div>
         </div>
 
@@ -24,8 +24,8 @@ const Apointment = () => {
             ✉️
           </div>
           <div>
-            <p className="text-gray-500">Mail Us Now</p>
-            <p className="text-blue-900 font-bold">name@domain.com</p>
+            <p className="text-gray-500">Email Us Now</p>
+            <p className="text-blue-900 font-bold">info@harmonysupport.care</p>
           </div>
         </div>
       </div>

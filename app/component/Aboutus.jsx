@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Aboutus = () => {
   return (
-    <section className="py-20 px-10 md:px-12 lg:px-24 bg-white flex flex-col lg:flex-row items-center gap-12">
+    <section id='Aboutus' className="py-20 px-10 md:px-12 lg:px-24 bg-white flex flex-col lg:flex-row items-center gap-12">
     <div className="relative w-full sm:px-10 lg:w-1/2">
       <div className="relative">
         <Image
@@ -24,21 +24,21 @@ const Aboutus = () => {
 
     
     <div className="w-full lg:w-1/2 text-center py-10 lg:text-left">
-      <span className="bg-gray-200 text-gray-700 px-4 py-4 rounded-full text-sm font-semibold">
+      <span className="bg-green-300 text-gray-700 px-4 py-4 rounded-full text-sm font-semibold">
         About Us
       </span>
-      <h2 className="text-3xl font-bold text-gray-900 mt-4">
-        Why You Should Trust Us? <br /> Get to Know About Us!
-      </h2>
-      <p className="text-gray-600 mt-4">
-      Harmony Support LLC is a compassionate organization committed to empowering individuals with disabilities to live with greater independence, dignity, and connection. Our mission is to provide person-centered services tailored to the unique needs of each individual, fostering a sense of belonging and enhancing their overall quality of life. We proudly serve people from diverse backgrounds and ages, striving to make a positive impact throughout the state of New Jersey.
+      {/* <h2 className="text-3xl font-bold text-gray-900 mt-4">
+        Why You Should Trust Us? 
+      </h2> */}
+      <p className="text-gray-600 mt-10">
+      Harmony Support   is a compassionate organization committed to empowering individuals with develomental and intellectual disabilities to live with greater independence, dignity, and connection. Our mission is to provide person-centered services tailored to the unique needs of each individual, fostering a sense of belonging and enhancing their overall quality of life. We proudly serve people from diverse backgrounds and ages, striving to make a positive impact throughout the state of New Jersey.
       </p>
      
 
       
       <ul className="mt-6 space-y-2">
         <li className="flex items-center gap-2 text-gray-700">
-          ✅ Quality Health Care
+         <Image src="/icons/24h.png" width={30} height={30} alt='img'/> 24 hour  care 
         </li>
         <li className="flex items-center gap-2 text-gray-700">
           ✅ Only Qualified Doctors

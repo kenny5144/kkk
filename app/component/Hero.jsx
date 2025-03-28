@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import hero from "../../public/pics/hero.jpg"
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -33,7 +34,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
               className="mt-4 text-lg text-black max-w-md"
             >
-             At Harmony Support LLC, we are dedicated to fostering a harmonious environment where individuals with disabilities are empowered to thrive. We believe that respect, inclusion, and opportunity are the cornerstones of creating a community where everyone can achieve their full potential.
+             At Harmony Support , we are dedicated to fostering a harmonious environment where individuals with  develomental and intellectual disabilities are empowered to thrive. We believe that respect, inclusion, and opportunity are the cornerstones of creating a community where everyone can achieve their full potential.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, x: -50 }}
@@ -41,12 +42,12 @@ const Hero = () => {
               transition={{ duration: 1.2, delay: 0.4, ease: "easeOut" }}
               className="mt-6 flex space-x-4"
             >
-              <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-md font-medium">
-                Get Appointment
-              </button>
-              <button className="px-6 py-3 bg-gray-900 hover:bg-gray-800 text-white rounded-md font-medium">
+              <Link href="#Contact" className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-md font-medium" >
+                Contact us
+              </Link>
+              <Link href="#About" className="px-6 py-3 bg-gray-900 hover:bg-gray-800 text-white rounded-md font-medium">
                 About Us
-              </button>
+              </Link>
             </motion.div>
           </div>
 

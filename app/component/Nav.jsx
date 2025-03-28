@@ -16,24 +16,24 @@ const Nav = () => {
           <div className="flex space-x-6">
             <div className="flex items-center space-x-2">
               <FaMapMarkerAlt className="text-blue-500" />
-              <span>123 Street, New York, USA</span>
+              <span>1 Vernon Place East Orange, New Jersey </span>
             </div>
-            <div className="flex items-center space-x-2">
+            {/* <div className="flex items-center space-x-2">
               <FaClock className="text-blue-500" />
               <span>Mon - Fri: 09.00 AM - 09.00 PM</span>
-            </div>
+            </div> */}
           </div>
           <div className="flex space-x-6 items-center">
             <div className="flex items-center space-x-2">
               <FaPhoneAlt className="text-blue-500" />
-              <span>+012 345 6789</span>
+              <span>+973 757 8155</span>
             </div>
-            <div className="flex space-x-3">
+            {/* <div className="flex space-x-3">
               <a href="#" className="text-blue-500 hover:text-blue-700"><FaFacebookF /></a>
               <a href="#" className="text-blue-500 hover:text-blue-700"><FaTwitter /></a>
               <a href="#" className="text-blue-500 hover:text-blue-700"><FaLinkedinIn /></a>
               <a href="#" className="text-blue-500 hover:text-blue-700"><FaInstagram /></a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -42,20 +42,20 @@ const Nav = () => {
       <nav className="bg-white shadow-md sticky top-0 z-50">
         <div className="container mx-auto flex justify-between items-center py-4 px-6">
           <Link href="/" className="flex items-center text-blue-600 text-2xl font-bold">
-            <Image src="/pics/mony.jpg" width={70} height={100} alt="harmony logo"/>
+            <Image src="/pics/mony.jpg" width={150} height={150} alt="harmony logo"/>
           </Link>
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex space-x-6">
             <Link href="/" className="text-blue-600 font-medium">Home</Link>
-            <Link href="/about" className="text-gray-700 hover:text-blue-600">About</Link>
-            <Link href="/service" className="text-gray-700 hover:text-blue-600">Service</Link>
+            <Link href="#Aboutus" className="text-gray-700 hover:text-blue-600">About</Link>
+            <Link href="#service" className="text-gray-700 hover:text-blue-600">Service</Link>
             <div className="relative group">
               
               <div className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md hidden group-hover:block">
               
               
-                <Link href="/appointment" className="block px-4 py-2 hover:bg-blue-50">Appointment</Link>
+                <Link href="#contact" className="block px-4 py-2 hover:bg-blue-50">Appointment</Link>
                 
                 
               </div>
@@ -78,11 +78,11 @@ const Nav = () => {
         {isOpen && (
           <div className="lg:hidden bg-white shadow-md">
             <Link href="/" className="block py-2 px-6 text-blue-600">Home</Link>
-            <Link href="/about" className="block py-2 px-6 text-gray-700 hover:text-blue-600">About</Link>
-            <Link href="/service" className="block py-2 px-6 text-gray-700 hover:text-blue-600">Service</Link>           
+            <Link href="#Aboutus" className="block py-2 px-6 text-gray-700 hover:text-blue-600">About</Link>
+            <Link href="#service" className="block py-2 px-6 text-gray-700 hover:text-blue-600">Service</Link>           
             <Link href="/appointment" className="block py-2 px-6 text-gray-700 hover:text-blue-600">Appointment</Link>
         
-            <Link href="/contact" className="block py-2 px-6 text-gray-700 hover:text-blue-600">Contact</Link>
+            <Link href="#contact" className="block py-2 px-6 text-gray-700 hover:text-blue-600">Contact</Link>
           </div>
         )}
       </nav>

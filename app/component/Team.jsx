@@ -8,13 +8,13 @@ const Team = () => {
     <section className="flex flex-col lg:flex-row items-center justify-between bg-white">
       {/* Left Side */}
       <div className="w-full lg:w-1/2 bg-blue-600 text-white p-17">
-        <span className="bg-white text-blue-600 px-4 py-1 rounded-full text-sm font-semibold inline-block mb-4">
+        {/* <span className="bg-white text-blue-600 px-4 py-1 rounded-full text-sm font-semibold inline-block mb-4">
           Team
-        </span>
+        </span> */}
         <h2 className="text-4xl font-bold mb-4">Why Choose Us</h2>
         <p className="mb-8 text-white/90">
         At Harmony Support, we are dedicated to providing compassionate, person-centered
-support services that empower individuals with disabilities to lead fulfilling lives. Here’s
+support services that empower individuals with develomental and intellectual disabilities to lead fulfilling lives. Here’s
 why we stand out:
         </p>
 
@@ -26,7 +26,7 @@ why we stand out:
               <FaUserMd size={24} />
             </div>
             <div>
-              <p className="text-sm">Personalized</p>
+              <p className="text-lg font-bold">Personalized</p>
               <h4 className="font-bold text-lg">Care</h4>
             </div>
           </div>
@@ -36,7 +36,7 @@ why we stand out:
               <FaCheckCircle size={24} />
             </div>
             <div>
-              <p className="text-sm">Experienced</p>
+              <p className="text-lg font-bold">Experienced</p>
               <h4 className="font-bold text-lg"> Professionals</h4>
             </div>
           </div>
@@ -46,7 +46,7 @@ why we stand out:
               <FaComments size={24} />
             </div>
             <div>
-              <p className="text-sm">Community </p>
+              <p className="text-lg font-bold">Community </p>
               <h4 className="font-bold text-lg">Integration</h4>
             </div>
           </div>
@@ -56,7 +56,7 @@ why we stand out:
               <FaHeadphones size={24} />
             </div>
             <div>
-              <p className="text-sm">Commitment to </p>
+              <p className="text-lg font-bold">Commitment to </p>
               <h4 className="font-bold text-lg">Excellence</h4>
             </div>
           </div>
