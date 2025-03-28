@@ -2,18 +2,18 @@
 import React from "react";
 import { motion } from "framer-motion";
 import hero from "../../public/pics/hero.jpg"
+import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-screen bg-gray-100 bg-[url('/pics/hero.jpg')] font-sans">
+    <div className="relative w-full bg-gray-200 bg-[url('/pics/hero.jpg')] font-sans">
       {/* Hero Section */}
       <div
         className="relative w-full h-[80vh] flex items-center bg-cover bg-center px-10"
-        style={{ backgroundImage: "url('/pics/hero.jpg')" }}
+        style={{ backgroundImage: "url('../../pics/hero.jpg')" }}
       >
         {/* Overlay */}
-        <div className="absolute inset-0 bg-white bg-opacity-50"></div>
-
+        
         {/* Content */}
         <div className="relative flex w-full max-w-7xl mx-auto items-center z-10">
           {/* Left Content */}
@@ -31,7 +31,7 @@ const Hero = () => {
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
-              className="mt-4 text-lg text-gray-700 max-w-md"
+              className="mt-4 text-lg text-black max-w-md"
             >
              At Harmony Support LLC, we are dedicated to fostering a harmonious environment where individuals with disabilities are empowered to thrive. We believe that respect, inclusion, and opportunity are the cornerstones of creating a community where everyone can achieve their full potential.
             </motion.p>
@@ -51,13 +51,11 @@ const Hero = () => {
           </div>
 
           {/* Right Content - Doctor Image */}
-          <div className="flex-1 flex justify-end">
-            <img src="/doctor-image.png" alt="Doctor" className="max-h-[450px]" />
-          </div>
+          
         </div>
       </div>
 
-      {/* Info Cards with Hover Animation */}
+      {/* Info Cards with Hover Animation
       <div className="absolute bottom-[70px] left-1/2 transform -translate-x-1/2 flex gap-6 w-full max-w-9xl px-4 justify-center">
         {[
           {
@@ -92,7 +90,7 @@ const Hero = () => {
             <button className="mt-4 text-white font-medium">LEARN MORE →</button>
           </motion.div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };

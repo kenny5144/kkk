@@ -1,7 +1,9 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { FaMapMarkerAlt, FaClock, FaPhoneAlt, FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaHospital, FaArrowRight } from "react-icons/fa";
+
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,8 +42,7 @@ const Nav = () => {
       <nav className="bg-white shadow-md sticky top-0 z-50">
         <div className="container mx-auto flex justify-between items-center py-4 px-6">
           <Link href="/" className="flex items-center text-blue-600 text-2xl font-bold">
-            <FaHospital className="mr-2" />
-            HAMORNY SUPPORT 
+            <Image src="/pics/mony.jpg" width={70} height={100} alt="harmony logo"/>
           </Link>
 
           {/* Desktop Menu */}
