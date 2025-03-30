@@ -66,7 +66,7 @@ why we stand out:
       {/* Right Side - Image */}
       <div className="w-full lg:w-1/2 h-full">
         <Image
-          src="/images/why-choose-us.png" // <-- Update this path if needed
+          src="/pics/transport.jpg" // <-- Update this path if needed
           alt="Why Choose Us"
           width={800}
           height={600}

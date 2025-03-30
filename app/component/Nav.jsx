@@ -26,7 +26,7 @@ const Nav = () => {
           <div className="flex space-x-6 items-center">
             <div className="flex items-center space-x-2">
               <FaPhoneAlt className="text-blue-500" />
-              <span>+973 757 8155</span>
+              <span>+973 874 6158</span>
             </div>
             {/* <div className="flex space-x-3">
               <a href="#" className="text-blue-500 hover:text-blue-700"><FaFacebookF /></a>
@@ -80,7 +80,7 @@ const Nav = () => {
             <Link href="/" className="block py-2 px-6 text-blue-600">Home</Link>
             <Link href="#Aboutus" className="block py-2 px-6 text-gray-700 hover:text-blue-600">About</Link>
             <Link href="#service" className="block py-2 px-6 text-gray-700 hover:text-blue-600">Service</Link>           
-            <Link href="/appointment" className="block py-2 px-6 text-gray-700 hover:text-blue-600">Appointment</Link>
+    
         
             <Link href="#contact" className="block py-2 px-6 text-gray-700 hover:text-blue-600">Contact</Link>
           </div>

@@ -47,7 +47,7 @@ const Service = () => {
         {services.map((service, index) => (
           <motion.div
             key={index}
-            className="bg-blue-200 p-6 rounded-lg shadow-md text-left flex flex-col items-start"
+            className="bg-blue-600 p-6 rounded-lg shadow-md text-left flex flex-col items-start"
             initial={{ scale: 1, opacity: 0.8 }}
             whileHover={{
               scale: 1.05,
@@ -63,10 +63,10 @@ const Service = () => {
                 alt={`${service.title} Icon`}
               />
             </div>
-            <h3 className="text-lg font-bold text-gray-900 mt-4">
+            <h3 className="text-lg font-bold text-white mt-4">
               {service.title}
             </h3>
-            <p className="text-gray-600 mt-2">{service.description}</p>
+            <p className="text-white mt-2">{service.description}</p>
             
           </motion.div>
         ))}
