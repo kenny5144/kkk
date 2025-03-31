@@ -43,7 +43,7 @@ const Apointment = () => {
           <div className="bg-white text-[#00AEEF] p-3 rounded-full text-lg">✉️</div>
           <div>
             <p>Address</p>
-            <p className="font-bold">1 vernon place east orange </p>
+            <p className="font-bold">1 Vernon Plc, East Orange NJ, 07050 </p>
           </div>
         </div>
         <div className="bg-[#8DC63F] p-5 rounded-lg mb-4 flex items-center gap-4 text-white shadow">
