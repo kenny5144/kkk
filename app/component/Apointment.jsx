@@ -12,7 +12,7 @@ const Apointment = () => {
     const form = e.target;
     const formData = new FormData(form);
 
-    const res = await fetch("https://formsubmit.co/ajax/772e5bf5086b72b909d3c38884e8cc9a ", {
+    const res = await fetch("https://formsubmit.co/ajax/772e5bf5086b72b909d3c38884e8cc9a", {
       method: "POST",
       headers: {
         Accept: "application/json",
