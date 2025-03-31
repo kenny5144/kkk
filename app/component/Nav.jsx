@@ -46,21 +46,13 @@ const Nav = () => {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex space-x-6">
-            <Link href="/" className="text-blue-600 font-medium">Home</Link>
+          <div className="hidden text-lg lg:flex space-x-6">
+            <Link href="/" className="text-gray-700 hover:text-blue-600">Home</Link>
             <Link href="#Aboutus" className="text-gray-700 hover:text-blue-600">About</Link>
             <Link href="#service" className="text-gray-700 hover:text-blue-600">Service</Link>
-            <div className="relative group">
-              
-              <div className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md hidden group-hover:block">
-              
-              
-                <Link href="#contact" className="block px-4 py-2 hover:bg-blue-50">Appointment</Link>
-                
-                
-              </div>
-            </div>
-            <Link href="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
+               
+            <Link href="#contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
+          
           </div>
 
           {/* Mobile Menu Button */}
@@ -69,8 +61,8 @@ const Nav = () => {
           </button>
 
           {/* Appointment Button */}
-          <Link href="/appointment" className="hidden lg:flex items-center bg-blue-600 text-white py-2 px-6 rounded-md hover:bg-blue-700">
-            Appointment <FaArrowRight className="ml-2" />
+          <Link href="tel:9738746158" className="hidden lg:flex items-center bg-blue-600 text-white py-2 px-6 rounded-md hover:bg-blue-700">
+            Call Us <FaArrowRight className="ml-2" />
           </Link>
         </div>
 

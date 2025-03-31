@@ -8,14 +8,14 @@ const Aboutus = () => {
       <div className="relative w-full sm:px-10 lg:w-1/2">
         <div className="relative">
           <Image
-            src="/pics/sitting.jpg"
+            src="/pics/helping.jpg"
             alt="Doctors"
             width={500}
             height={300}
             className="rounded-lg shadow-lg"
           />
           <Image
-            src="/pics/helping.jpg"
+            src="/pics/sitting.jpg"
             alt="Doctor Smiling"
             width={150}
             height={150}
@@ -31,7 +31,7 @@ const Aboutus = () => {
         </span>
 
         <h2 className="text-3xl font-bold text-[#00AEEF] mt-6">
-          Empowering Lives, One Individual at a Time
+          Empowering Lives
         </h2>
 
         <p className="text-gray-700 mt-6 leading-relaxed">

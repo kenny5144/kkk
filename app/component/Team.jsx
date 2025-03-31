@@ -7,7 +7,7 @@ const Team = () => {
   return (
     <section className="flex flex-col lg:flex-row items-center justify-between bg-white">
       {/* Left Side */}
-      <div className="w-full lg:w-1/2 bg-blue-600 text-white p-17">
+      <div className="w-full lg:w-1/2 bg-blue-600 text-white p-16">
         {/* <span className="bg-white text-blue-600 px-4 py-1 rounded-full text-sm font-semibold inline-block mb-4">
           Team
         </span> */}
@@ -64,13 +64,12 @@ why we stand out:
       </div>
 
       {/* Right Side - Image */}
-      <div className="w-full lg:w-1/2 h-full">
+      <div className="w-full lg:w-1/2">
         <Image
           src="/pics/transport.jpg" // <-- Update this path if needed
           alt="Why Choose Us"
           width={800}
-          height={600}
-          className="w-full h-full object-cover"
+          height={700}
         />
       </div>
     </section>
