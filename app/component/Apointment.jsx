@@ -85,9 +85,9 @@ const Apointment = () => {
             <button
               type="submit"
               disabled={loading}
-              className="bg-blue-400 text-blue-600 w-full p-3 rounded-md font-semibold hover:bg-[#0095cc] transition"
+              className="bg-blue-400 text-white w-full p-3 rounded-md font-semibold hover:bg-[#0095cc] transition"
             >
-              {loading ? "Sending..." : "Book Appointment"}
+              {loading ? "Sending..." : "Send"}
             </button>
           </form>
         )}
