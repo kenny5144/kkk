@@ -12,7 +12,7 @@ const Apointment = () => {
     const form = e.target;
     const formData = new FormData(form);
 
-    const res = await fetch("https://formsubmit.co/ajax/info@harmonysupport.care", {
+    const res = await fetch("https://formsubmit.co/ajax/772e5bf5086b72b909d3c38884e8cc9a ", {
       method: "POST",
       headers: {
         Accept: "application/json",
@@ -43,7 +43,7 @@ const Apointment = () => {
           <div className="bg-white text-[#00AEEF] p-3 rounded-full text-lg">✉️</div>
           <div>
             <p>Address</p>
-            <p className="font-bold">1 Vernon Plc, East Orange NJ, 07017 </p>
+            <p className="font-bold">1 Vernon Pl, East Orange NJ, 07017 </p>
           </div>
         </div>
         <div className="bg-[#8DC63F] p-5 rounded-lg mb-4 flex items-center gap-4 text-white shadow">
@@ -85,7 +85,7 @@ const Apointment = () => {
             <button
               type="submit"
               disabled={loading}
-              className="bg-blue-400 text-white w-full p-3 rounded-md font-semibold hover:bg-[#0095cc] transition"
+              className="bg-blue-500 text-white w-full p-3 rounded-md font-semibold hover:bg-[#0095cc] transition"
             >
               {loading ? "Sending..." : "Send"}
             </button>

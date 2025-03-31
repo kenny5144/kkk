@@ -15,7 +15,7 @@ const Aboutus = () => {
             className="rounded-lg shadow-lg"
           />
           <Image
-            src="/pics/sitting.jpg"
+            src="/pics/helping.jpg"
             alt="Doctor Smiling"
             width={150}
             height={150}
