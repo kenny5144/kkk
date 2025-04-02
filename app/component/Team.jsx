@@ -19,7 +19,7 @@ why we stand out:
         </p>
 
         {/* Features Grid */}
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-2 gap-8">
           {/* Feature Item */}
           <div className="flex items-start space-x-3">
             <div className="bg-white text-blue-600 p-3 rounded-full">

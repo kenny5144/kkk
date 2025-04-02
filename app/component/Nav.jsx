@@ -41,8 +41,9 @@ const Nav = () => {
      
       <nav className="bg-white shadow-md sticky top-0 z-50">
         <div className="container mx-auto flex justify-between items-center py-4 px-6">
-          <Link href="/" className="flex items-center text-blue-600 text-2xl font-bold">
+          <Link href="/" className="flex items-center  text-2xl font-bold">
             <Image src="/pics/mony.jpg" width={150} height={150} alt="harmony logo"/>
+            <p className="flex leading-tight font-[Nunito] font-bold mr-2 flex-col item-center justify-center text-2xl"> <span className="text-[#00adf1]">Harmony</span> <span className="text-[#86c543]">Support</span>  <span className="text-[#86c543]">LLC</span></p>
           </Link>
 
           {/* Desktop Menu */}
