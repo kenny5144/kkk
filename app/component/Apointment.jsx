@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { FaMapMarkerAlt, FaClock, FaPhoneAlt, FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaHospital, FaArrowRight } from "react-icons/fa";
 
 const Apointment = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -42,7 +43,9 @@ const Apointment = () => {
             We would like the opportunity to collaborate with you and discuss how Harmony Support can best serve the individuals in your care.
           </p>
           <div className="bg-[#00AEEF] p-5 rounded-lg mb-4 flex items-center gap-4 text-white shadow">
-            <div className="bg-white text-[#00AEEF] p-3 rounded-full text-lg">✉️</div>
+            <div className="bg-white text-[#00AEEF] p-3 rounded-full text-lg">
+              <FaMapMarkerAlt className="text-black"/>
+              </div>
             <div>
               <p>Address</p>
               <p className="font-bold">1 Vernon Pl, East Orange NJ, 07017 </p>

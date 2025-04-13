@@ -8,14 +8,14 @@ const Aboutus = () => {
       <div className="relative w-full sm:px-10 lg:w-1/2">
         <div className="relative">
           <Image
-            src="/pics/helping.jpg"
+            src="/pics/004.jpg"
             alt="Doctors"
             width={500}
             height={300}
             className="rounded-lg shadow-lg"
           />
           <Image
-            src="/pics/helping.jpg"
+            src="/pics/005.jpg"
             alt="Doctor Smiling"
             width={150}
             height={150}
