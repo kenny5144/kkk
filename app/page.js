@@ -7,18 +7,20 @@ import Apointment from "./component/Apointment";
 import Team from "./component/Team";
 import OurVision from "./component/OurVision";
 import DDDService from "./component/DDDService"
+import UnderConstruction from "./component/UnderConstruction";
 
 export default function Home() {
   return (
     <div>
-     <Nav/>
+     {/* <Nav/>
      <Hero/>
      <Aboutus/>
      <OurVision/>
     <Team/>
     <DDDService/>
      <Service/>
-     <Apointment/>
+     <Apointment/> */}
+     <UnderConstruction/>
     </div>
   );
 }
