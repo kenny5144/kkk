@@ -76,21 +76,68 @@ const Apointment = () => {
             </div>
           ) : (
             <form ref={formRef} onSubmit={handleSubmit} className="text-black space-y-4">
-              <div className="grid md:grid-cols-2 gap-4">
-                <input type="text" name="name" placeholder="Your Name" required className="p-3 w-full rounded-md border border-gray-300" />
-                <input type="email" name="email" placeholder="Your Email" required className="p-3 w-full rounded-md border border-gray-300" />
-              </div>
-              <input type="tel" name="mobile" placeholder="Your Mobile" className="p-3 w-full rounded-md border border-gray-300" />
-              <input type="text" name="referral" placeholder="How did you hear about us" className="p-3 w-full rounded-md border border-gray-300" />
-              <textarea name="message" rows="4" placeholder="Message" className="p-3 w-full rounded-md border border-gray-300"></textarea>
-              <button
-                type="submit"
-                disabled={loading}
-                className="bg-blue-500 text-white w-full p-3 rounded-md font-semibold hover:bg-[#0095cc] transition"
-              >
-                {loading ? "Sending..." : "Send"}
-              </button>
-            </form>
+  <div className="grid md:grid-cols-2 gap-4">
+    <input
+      type="text"
+      name="name"
+      placeholder="Your Name"
+      required
+      className="p-3 w-full rounded-md border border-gray-300"
+    />
+    <input
+      type="email"
+      name="email"
+      placeholder="Your Email"
+      required
+      className="p-3 w-full rounded-md border border-gray-300"
+    />
+  </div>
+
+  <input
+    type="tel"
+    name="mobile"
+    placeholder="Your Mobile"
+    className="p-3 w-full rounded-md border border-gray-300"
+  />
+
+  <input
+    type="text"
+    name="referral"
+    placeholder="How did you hear about us"
+    className="p-3 w-full rounded-md border border-gray-300"
+  />
+
+  <select
+  name="help"
+  required
+  defaultValue=""
+  className="p-3 w-full rounded-md border border-gray-300 bg-white text-gray-700"
+>
+  <option value="" disabled selected>
+    What can we help you with?
+  </option>
+  <option value="ddd_services">DDD Services</option>
+  <option value="general_service">General Service Inquiry</option>
+  <option value="career">Career Opportunities</option>
+</select>
+
+
+  <textarea
+    name="message"
+    rows="4"
+    placeholder="Message"
+    className="p-3 w-full rounded-md border border-gray-300"
+  ></textarea>
+
+  <button
+    type="submit"
+    disabled={loading}
+    className="bg-blue-500 text-white w-full p-3 rounded-md font-semibold hover:bg-[#0095cc] transition"
+  >
+    {loading ? "Sending..." : "Send"}
+  </button>
+</form>
+
           )}
         </div>
       </div>

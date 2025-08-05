@@ -34,9 +34,13 @@ const Aboutus = () => {
           Empowering Lives
         </h2>
 
-        <p className="text-gray-700 mt-6 leading-relaxed">
-          Harmony Support is a compassionate organization committed to empowering individuals with developmental and intellectual disabilities to live with greater independence, dignity, and connection.
-          Our mission is to provide person-centered services tailored to the unique needs of each individual, fostering a sense of belonging and enhancing their overall quality of life. We proudly serve people from diverse backgrounds and ages, striving to make a positive impact throughout the state of New Jersey.
+        <p className="text-gray-700 mt-6 leading-relaxed">At Harmony Home Care Services, we are dedicated to providing compassionate, high-quality non-medical care that allows client to live independently, comfortably, and with dignity in their own homes. Founded on values of respect, integrity, and personalized attention, our goal is to create peace of mind for both our clients and their families.
+
+ 
+
+We specialize in supporting with daily living activities, companionship, and individualized home care plans that reflect their unique needs. Whether it’s a few hours a day or round-the-clock assistance, our trained caregivers bring professionalism and warmth to every home.
+
+With a commitment to excellence and heartfelt service, Harmony Home Care is here to ensure that your loved ones receive the respectful, reliable care they deserve, where they feel most at ease: at home.
         </p>
 
         <ul className="mt-6 space-y-3">
