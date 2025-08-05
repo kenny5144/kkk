@@ -5,7 +5,7 @@ import Aboutus from "./component/Aboutus";
 import Service from "./component/Service";
 import Apointment from "./component/Apointment";
 import Team from "./component/Team";
-import OurVision from "./component/ourVision";
+import OurVision from "./component/OurVision";
 import DDDService from "./component/DDDService"
 
 export default function Home() {
