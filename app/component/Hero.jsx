@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import Link from "next/link";
@@ -16,7 +16,11 @@ const Hero = () => {
         pagination={{
           dynamicBullets: true,
         }}
-        modules={[Pagination]}
+          autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        modules={[Pagination,Autoplay]}
         className="mySwiper"
       >
         

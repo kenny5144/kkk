@@ -12,15 +12,15 @@ import UnderConstruction from "./component/UnderConstruction";
 export default function Home() {
   return (
     <div>
-     {/* <Nav/>
+     <Nav/>
      <Hero/>
      <Aboutus/>
      <OurVision/>
     <Team/>
     <DDDService/>
      <Service/>
-     <Apointment/> */}
-     <UnderConstruction/>
+     <Apointment/>
+     {/* <UnderConstruction/> */}
     </div>
   );
 }

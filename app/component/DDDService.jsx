@@ -39,7 +39,7 @@ const Service = () => {
 
   return (
     <section
-      id="service"
+      id="dddservice"
       className="py-16 px-6 md:px-12 lg:px-24 bg-gray-50 text-center"
     >
       <h2 className="text-4xl font-bold text-gray-900 mb-12">DDD Services</h2>

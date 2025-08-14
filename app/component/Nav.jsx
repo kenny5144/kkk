@@ -16,15 +16,15 @@ const Nav = () => {
       <nav className="bg-white  shadow-md sticky top-0 z-50">
         <div className="container mx-auto flex justify-between items-center py-4 px-6">
           <Link href="/" className=" flex flex-col justify-center items-center  text-2xl font-bold">
-            <Image src="/pics/mony.jpg" width={150} height={150} alt="harmony logo"/>
-            <p className=" leading-tight font-[Nunito] font-bold mr-2 flex-col item-center justify-center text-2xl"> <span className="text-[#00adf1]">Harmony</span><span className="text-[#00adf1]">Care</span> <span className="text-[#86c543]">Support</span>  <span className="text-[#86c543]">LLC</span></p>
+            <Image src="/pics/mony.jpg" width={100} height={100} alt="harmony logo"/>
+            <p className=" leading-tight font-[Nunito] font-bold mr-2 flex-col item-center justify-center text-2xl"> <span className="text-[#00adf1]">Harmony</span> <span className="text-[#86c543]">Support</span>  <span className="text-[#86c543]">LLC</span></p>
           </Link>
 
           {/* Desktop Menu */}
           <div className="hidden text-lg lg:flex space-x-6">
             <Link href="/" className="text-gray-700 hover:text-blue-600">Home</Link>
             <Link href="/#Aboutus" className="text-gray-700 hover:text-blue-600">About</Link>
-            <Link href="/#service" className="text-gray-700 hover:text-blue-600">DDD service</Link>
+            <Link href="/#dddservice" className="text-gray-700 hover:text-blue-600">DDD service</Link>
             <Link href="/#service" className="text-gray-700 hover:text-blue-600">Our Services</Link>
             {/* <Link href="/Career" className="text-gray-700 hover:text-blue-600">Career</Link> */}
                

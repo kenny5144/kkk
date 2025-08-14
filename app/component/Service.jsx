@@ -14,34 +14,59 @@ const Service = () => {
     },
     {
       title: "Shopping/Errands",
+            image: "/pics/transport.jpg"
+
+      
+    },
+    {
+      title: "Companion Care",
             image: "/pics/serviceimage2.jpg"
 
       
     },
     {
-      title: "Feeding and Meal Preparation",
-            image: "/pics/serviceimage3.jpg"
+      title: " Meal Preparation, Feeding",
+            image: "/pics/serviceimage5.jpg"
  
      
     },
     {
       title: "HouseKeeping",
-            image: "/pics/serviceimage4.jpg"
+            image: "/pics/housekeeping.jpg"
 
      
     },
     {
-      title: "Medication reminder",
-            image: "/pics/serviceimage5.jpg"
+      title: "Medication reminders",
+            image: "/pics/medicine.jpg"
 
       
     },
     {
       title: "Walking,Ambulation",
-            image: "/pics/serviceimage6.jpg"
+            image: "/pics/serviceimage3.jpg"
 
       
     },
+    {
+      title: "Dressing",
+            image: "/pics/dressing.jpg"
+
+      
+    },
+    {
+      title: "Toiletting",
+            image: "/pics/toileting.png"
+
+      
+    },
+    {
+      title: "Lifestyle Assistant",
+            image: "/pics/serviceimage1.jpg"
+
+      
+    },
+
    
   ];
 

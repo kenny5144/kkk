@@ -30,10 +30,7 @@ const Aboutus = () => {
           About Us
         </span>
 
-        <h2 className="text-3xl font-bold text-[#00AEEF] mt-6">
-          Empowering Lives
-        </h2>
-
+      
         <p className="text-gray-700 mt-6 leading-relaxed">At Harmony Home Care Services, we are dedicated to providing compassionate, high-quality non-medical care that allows client to live independently, comfortably, and with dignity in their own homes. Founded on values of respect, integrity, and personalized attention, our goal is to create peace of mind for both our clients and their families.
 
  

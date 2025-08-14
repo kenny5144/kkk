@@ -55,7 +55,7 @@ const Apointment = () => {
             <div className="bg-white text-[#8DC63F] p-3 rounded-full text-lg">📞</div>
             <div>
               <p>Call Us Now</p>
-              <p className="font-bold">+973 874 6158</p>
+              <p className="font-bold">+1 (973) 920-5737 , +1 (973) 874-6158 </p>
             </div>
           </div>
           <div className="bg-[#00AEEF] p-5 rounded-lg flex items-center gap-4 text-white shadow">
@@ -118,6 +118,7 @@ const Apointment = () => {
   </option>
   <option value="ddd_services">DDD Services</option>
   <option value="general_service">General Service Inquiry</option>
+  <option value="ddd_services">HomeCare Services</option>
   <option value="career">Career Opportunities</option>
 </select>
 
