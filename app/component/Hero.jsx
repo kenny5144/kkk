@@ -25,7 +25,7 @@ const Hero = () => {
       >
         
         <SwiperSlide>
-           <div
+       <div
         className="relative w-full h-[80vh] flex items-center bg-cover bg-center px-10"
         style={{ backgroundImage: "url('/pics/sliding1.jpg')" }}
       >
@@ -52,7 +52,7 @@ const Hero = () => {
       </div>
         </SwiperSlide>
         <SwiperSlide>
-           <div
+          <div
         className="relative w-full h-[80vh] flex items-center bg-cover bg-center px-10"
         style={{ backgroundImage: "url('/pics/sliding2.jpg')" }}
       >
