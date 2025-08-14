@@ -17,8 +17,8 @@ export default function Home() {
      <Aboutus/>
      <OurVision/>
     <Team/>
-    <DDDService/>
      <Service/>
+    <DDDService/>
      <Apointment/>
      {/* <UnderConstruction/> */}
     </div>

@@ -27,7 +27,7 @@ const Hero = () => {
         <SwiperSlide>
        <div
         className="relative w-full h-[80vh] flex items-center bg-cover bg-center px-10"
-        style={{ backgroundImage: "url('/pics/sliding1.jpg')" }}
+        style={{ backgroundImage: "url('/pics/Sliding1.jpg')" }}
       >
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/40 z-0"></div>
@@ -54,7 +54,7 @@ const Hero = () => {
         <SwiperSlide>
           <div
         className="relative w-full h-[80vh] flex items-center bg-cover bg-center px-10"
-        style={{ backgroundImage: "url('/pics/sliding2.jpg')" }}
+        style={{ backgroundImage: "url('/pics/Sliding2.jpg')" }}
       >
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/40 z-0"></div>
