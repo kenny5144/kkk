@@ -24,8 +24,8 @@ const Nav = () => {
           <div className="hidden text-lg lg:flex space-x-6">
             <Link href="/" className="text-gray-700 hover:text-blue-600">Home</Link>
             <Link href="/#Aboutus" className="text-gray-700 hover:text-blue-600">About</Link>
-            <Link href="/#dddservice" className="text-gray-700 hover:text-blue-600">DDD service</Link>
             <Link href="/#service" className="text-gray-700 hover:text-blue-600">Our Services</Link>
+            <Link href="/#dddservice" className="text-gray-700 hover:text-blue-600">DDD service</Link>
             {/* <Link href="/Career" className="text-gray-700 hover:text-blue-600">Career</Link> */}
                
             <Link href="/#contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
@@ -45,9 +45,9 @@ const Nav = () => {
           <div className="lg:hidden bg-white shadow-md">
             <Link href="/" className="block py-2 px-6 text-blue-600">Home</Link>
             <Link href="/#Aboutus" className="block py-2 px-6 text-gray-700 hover:text-blue-600">About</Link>
+            <Link href="/#dddservice" className="block py-2 px-6 text-gray-700 hover:text-blue-600">DDD Services</Link>           
             <Link href="/#service" className="block py-2 px-6 text-gray-700 hover:text-blue-600"> Services</Link>     
                 
-            <Link href="/#service" className="block py-2 px-6 text-gray-700 hover:text-blue-600">DDD Services</Link>           
     
         
              {/* <Link href="/Career" className="block py-2 px-6 text-gray-700 ">Career</Link> */}
