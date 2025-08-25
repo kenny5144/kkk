@@ -10,9 +10,7 @@ const Team = () => {
       <div className="w-full  bg-blue-600 text-white px-6 py-12 lg:px-16">
         <h2 className="text-4xl text-center font-bold mb-4">Why Choose Us</h2>
         <p className="mb-8 text-white/90">
-          At Harmony Support, we are dedicated to providing compassionate, person-centered
-          support services that empower individuals with developmental and intellectual
-          disabilities to lead fulfilling lives. Here’s why we stand out:
+        At Harmony Support, we provide compassionate, person-centered home care and support services. Whether assisting seniors, individuals with disabilities, or those recovering from illness, our mission is to help each person live safely, independently, and with dignity. Here’s why we stand out:
         </p>
 
         {/* Features Grid */}
