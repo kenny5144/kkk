@@ -124,7 +124,6 @@ const Page = () => {
           </div>
         </section>
 
-        {/* Key Principles Highlights */}
         <section className="border-b border-slate-200 bg-white">
           <div className="max-w-6xl mx-auto px-6 py-12">
             <p className="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-8">
