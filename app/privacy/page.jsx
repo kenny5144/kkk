@@ -98,7 +98,7 @@ const Page = () => {
                 Privacy Policy
               </h1>
               <p className="text-slate-300 text-lg leading-relaxed mb-8">
-                Harmony Support Care ("we," "our," or "us") operates the website{" "}
+                Harmony Support LLC ("we," "our," or "us") operates the website{" "}
                 <a
                   href="https://www.harmonysupport.care/"
                   className="underline hover:text-white"
