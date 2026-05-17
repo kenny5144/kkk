@@ -1,7 +1,18 @@
-"use client"
-import React, { useState, useRef } from 'react';
-import emailjs from '@emailjs/browser';
-import { FaMapMarkerAlt, FaClock, FaPhoneAlt, FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaHospital, FaArrowRight } from "react-icons/fa";
+"use client";
+import React, { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
+import Link from "next/link";
+import {
+  FaMapMarkerAlt,
+  FaClock,
+  FaPhoneAlt,
+  FaFacebookF,
+  FaTwitter,
+  FaLinkedinIn,
+  FaInstagram,
+  FaHospital,
+  FaArrowRight,
+} from "react-icons/fa";
 
 const Apointment = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -14,10 +25,10 @@ const Apointment = () => {
 
     emailjs
       .sendForm(
-        'service_yfk2tub',      
-        'template_9180ldn',     
+        "service_yfk2tub",
+        "template_9180ldn",
         formRef.current,
-        '8G9Ac9vv-SE8sIYBf'       
+        "8G9Ac9vv-SE8sIYBf",
       )
       .then(
         () => {
@@ -26,40 +37,52 @@ const Apointment = () => {
           setLoading(false);
         },
         (error) => {
-          console.error('EmailJS Error:', error.text);
-          alert('Something went wrong. Please try again.');
+          console.error("EmailJS Error:", error.text);
+          alert("Something went wrong. Please try again.");
           setLoading(false);
-        }
+        },
       );
   };
 
   return (
     <>
-      <div id="contact" className="bg-white p-9 lg:flex py-10 gap-10 items-start">
+      <div
+        id="contact"
+        className="bg-white p-9 lg:flex py-10 gap-10 items-start"
+      >
         {/* Left Side */}
         <div className="lg:w-1/3">
-          <h2 className="text-3xl font-bold text-[#00AEEF] mb-4">Contact Us Today</h2>
+          <h2 className="text-3xl font-bold text-[#00AEEF] mb-4">
+            Contact Us Today
+          </h2>
           <p className="text-gray-600 mb-6">
-            We would like the opportunity to collaborate with you and discuss how Harmony Support can best serve the individuals in your care.
+            We would like the opportunity to collaborate with you and discuss
+            how Harmony Support can best serve the individuals in your care.
           </p>
           <div className="bg-[#00AEEF] p-5 rounded-lg mb-4 flex items-center gap-4 text-white shadow">
             <div className="bg-white text-[#00AEEF] p-3 rounded-full text-lg">
-              <FaMapMarkerAlt className="text-black"/>
-              </div>
+              <FaMapMarkerAlt className="text-black" />
+            </div>
             <div>
               <p>Address</p>
               <p className="font-bold">1 Vernon Pl, East Orange NJ, 07017 </p>
             </div>
           </div>
           <div className="bg-[#8DC63F] p-5 rounded-lg mb-4 flex items-center gap-4 text-white shadow">
-            <div className="bg-white text-[#8DC63F] p-3 rounded-full text-lg">📞</div>
+            <div className="bg-white text-[#8DC63F] p-3 rounded-full text-lg">
+              📞
+            </div>
             <div>
               <p>Call Us Now</p>
-              <p className="font-bold">+1 (973) 920-5737 , +1 (973) 874-6158 </p>
+              <p className="font-bold">
+                +1 (973) 920-5737 , +1 (973) 874-6158{" "}
+              </p>
             </div>
           </div>
           <div className="bg-[#00AEEF] p-5 rounded-lg flex items-center gap-4 text-white shadow">
-            <div className="bg-white text-[#00AEEF] p-3 rounded-full text-lg">✉️</div>
+            <div className="bg-white text-[#00AEEF] p-3 rounded-full text-lg">
+              ✉️
+            </div>
             <div>
               <p>Email Us Now</p>
               <p className="font-bold">info@harmonysupport.care</p>
@@ -75,76 +98,78 @@ const Apointment = () => {
               🎉 Message sent successfully! We'll be in touch soon.
             </div>
           ) : (
-            <form ref={formRef} onSubmit={handleSubmit} className="text-black space-y-4">
-  <div className="grid md:grid-cols-2 gap-4">
-    <input
-      type="text"
-      name="name"
-      placeholder="Your Name"
-      required
-      className="p-3 w-full rounded-md border border-gray-300"
-    />
-    <input
-      type="email"
-      name="email"
-      placeholder="Your Email"
-      required
-      className="p-3 w-full rounded-md border border-gray-300"
-    />
-  </div>
+            <form
+              ref={formRef}
+              onSubmit={handleSubmit}
+              className="text-black space-y-4"
+            >
+              <div className="grid md:grid-cols-2 gap-4">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                  className="p-3 w-full rounded-md border border-gray-300"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                  className="p-3 w-full rounded-md border border-gray-300"
+                />
+              </div>
 
-  <input
-    type="tel"
-    name="mobile"
-    placeholder="Your Mobile"
-    className="p-3 w-full rounded-md border border-gray-300"
-  />
+              <input
+                type="tel"
+                name="mobile"
+                placeholder="Your Mobile"
+                className="p-3 w-full rounded-md border border-gray-300"
+              />
 
-  <input
-    type="text"
-    name="referral"
-    placeholder="How did you hear about us"
-    className="p-3 w-full rounded-md border border-gray-300"
-  />
+              <input
+                type="text"
+                name="referral"
+                placeholder="How did you hear about us"
+                className="p-3 w-full rounded-md border border-gray-300"
+              />
 
-  <select
-  name="help"
-  required
-  defaultValue=""
-  className="p-3 w-full rounded-md border border-gray-300 bg-white text-gray-700"
->
-  <option value="" disabled selected>
-    What can we help you with?
-  </option>
-  <option value="ddd_services">DDD Services</option>
-  <option value="general_service">General Service Inquiry</option>
-  <option value="ddd_services">HomeCare Services</option>
-  <option value="career">Career Opportunities</option>
-</select>
+              <select
+                name="help"
+                required
+                defaultValue=""
+                className="p-3 w-full rounded-md border border-gray-300 bg-white text-gray-700"
+              >
+                <option value="" disabled selected>
+                  What can we help you with?
+                </option>
+                <option value="ddd_services">DDD Services</option>
+                <option value="general_service">General Service Inquiry</option>
+                <option value="ddd_services">HomeCare Services</option>
+                <option value="career">Career Opportunities</option>
+              </select>
 
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Message"
+                className="p-3 w-full rounded-md border border-gray-300"
+              ></textarea>
 
-  <textarea
-    name="message"
-    rows="4"
-    placeholder="Message"
-    className="p-3 w-full rounded-md border border-gray-300"
-  ></textarea>
-
-  <button
-    type="submit"
-    disabled={loading}
-    className="bg-blue-500 text-white w-full p-3 rounded-md font-semibold hover:bg-[#0095cc] transition"
-  >
-    {loading ? "Sending..." : "Send"}
-  </button>
-</form>
-
+              <button
+                type="submit"
+                disabled={loading}
+                className="bg-blue-500 text-white w-full p-3 rounded-md font-semibold hover:bg-[#0095cc] transition"
+              >
+                {loading ? "Sending..." : "Send"}
+              </button>
+            </form>
           )}
         </div>
       </div>
 
       {/* Google Map */}
-      <div className="w-full">
+      <div className="bg-white w-full">
         <div className="w-full h-[400px] rounded-lg overflow-hidden shadow-lg">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3043.740810078424!2d-74.21252752406955!3d40.76940623592905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a6ec8fc5b0e1%3A0xdfb49687f13c622c!2s1%20Vernon%20Pl%2C%20East%20Orange%2C%20NJ%2007017%2C%20USA!5e0!3m2!1sen!2sus!4v1711821234567"
@@ -155,6 +180,11 @@ const Apointment = () => {
             referrerPolicy="no-referrer-when-downgrade"
             className="border-0 w-full h-full"
           ></iframe>
+        </div>
+        <div className="flex  justify-center">
+          <Link className="text-black p-2 text-sm  item-center" href="/privacy">
+            privacy policy
+          </Link>
         </div>
       </div>
     </>
