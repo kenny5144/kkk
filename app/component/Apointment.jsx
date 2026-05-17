@@ -2,6 +2,7 @@
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Link from "next/link";
+import { Shield } from "lucide-react";
 import {
   FaMapMarkerAlt,
   FaClock,
@@ -186,6 +187,24 @@ const Apointment = () => {
             privacy policy
           </Link>
         </div>
+        <footer className="border-t border-slate-200 bg-white mt-8">
+          <div className="max-w-6xl mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-4">
+            <div className="flex items-center gap-2">
+              <div className="w-6 h-6 bg-slate-900 rounded-md flex items-center justify-center">
+                <Shield className="w-3 h-3 text-white" />
+              </div>
+              <span className="text-slate-500 text-sm">
+                &copy; {new Date().getFullYear()} Harmony Support Care. All
+                rights reserved.
+              </span>
+            </div>
+            <div className="flex items-center gap-6 text-sm text-slate-400">
+              <Link className=" p-2 text-sm  item-center" href="/privacy">
+                Privacy policy
+              </Link>
+            </div>
+          </div>
+        </footer>
       </div>
     </>
   );
