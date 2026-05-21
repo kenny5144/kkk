@@ -80,7 +80,7 @@ const sections = [
     text: `If you have any questions about this Privacy Policy, please contact us:
     • By Email: Harmonyagency247@gmail.com
     • By Phone: 973-920-5737
-    • By Mail: 1 Vernon Pl East Orange nj`,
+    • By Mail: 1 Vernon Pl East Orange NJ, 07017`,
   },
 ];
 
